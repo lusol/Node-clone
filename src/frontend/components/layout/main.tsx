@@ -43,6 +43,7 @@ const Main = {
   MainWrapper: Styled.div`
     display: flex;
     width: 80%;
+    max-width: 850px;
     flex-grow: 1;
     border-radius: 30px;
     border: 5px solid ${(props) => props.theme.colors.hunter};
